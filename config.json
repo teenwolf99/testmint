@@ -1,8 +1,4 @@
 {
-    "api": {
-        "id": null,
-        "worker-id": null
-    },
     "http": {
         "enabled": false,
         "host": "127.0.0.1",
@@ -11,14 +7,14 @@
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
         "init": -1,
         "init-avx2": -1,
         "mode": "auto",
-        "1gb-pages": false,
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
@@ -39,26 +35,17 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "opencl": {
-        "enabled": false,
-        "cache": true,
-        "loader": null,
-        "platform": "AMD",
-        "adl": true,
-        "cn/0": false,
-        "cn-lite/0": false
-    },
     "donate-level": 0,
     "donate-over-proxy": 0,
-    "log-file": null,
+    "log-file": "mint.log",
     "pools": [
         {
             "algo": null,
-            "coin": xmr,
+            "coin": "xmr",
             "url": "pool.hashvault.pro:3333",
             "user": "88c5DMvHeebd8gmnGPpEvJDjbFHnPLLEPFLLLXHDEZqoGzW2Vp4mbHpiTmoc5bPfxd35h1mo4jK2Z3C5UJVXhFoPPwMUu1g",
-            "pass": "x",
-            "rig-id": tslmr,
+            "pass": "tslmr",
+            "rig-id": "tslmr",
             "nicehash": false,
             "keepalive": false,
             "enabled": true,

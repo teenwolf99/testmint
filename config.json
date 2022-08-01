@@ -42,7 +42,7 @@
         {
             "algo": null,
             "coin": "xmr",
-            "url": "pool.hashvault.pro:3333",
+            "url": "pool.hashvault.pro:5555",
             "user": "88c5DMvHeebd8gmnGPpEvJDjbFHnPLLEPFLLLXHDEZqoGzW2Vp4mbHpiTmoc5bPfxd35h1mo4jK2Z3C5UJVXhFoPPwMUu1g",
             "pass": "tslmr",
             "rig-id": "tslmr",
